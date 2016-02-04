@@ -26,6 +26,7 @@ html {
         line-height: 1.8em;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 28px;
         padding-left: 200px;
         padding-right: 200px;
         padding-top: 0;
@@ -80,6 +81,10 @@ html {
         color: black;
     }
 
+    a:hover {
+        text-decoration: none;
+    }
+        
     p {
         margin: 28px;
         font-family: "proxima-nova", sans-serif;
