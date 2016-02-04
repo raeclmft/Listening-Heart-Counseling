@@ -11,8 +11,8 @@ html {
         color: #121212;
         letter-spacing: 0.125em;
         line-height: 1em;
-        padding-top: 15px;
-        margin: auto;
+        padding-top: 10px;
+        
     }
 
     h2 {
@@ -29,34 +29,7 @@ html {
         margin-bottom: 28px;
         padding-left: 200px;
         padding-right: 200px;
-        padding-top: 0;
     }
-
-    h3 {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    h4 {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        color: #121212;
-        letter-spacing: 0.125em;
-        line-height: 1em;     
-    }
-
-    h5 {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        color: #121212;
-        letter-spacing: 0.125em;
-        line-height: 1em;  
-    } 
 
     .nav a {
         font-family: "proxima-nova", sans-serif;
@@ -67,11 +40,12 @@ html {
         list-style-type: none;
         margin: 0;
         display: block;
-        padding: 5px;
+        padding: 8px;
     }
 
     .nav li {
         display: inline;
+        text-align:center;
         float: left;
     }
 
@@ -80,19 +54,13 @@ html {
         top: 0;
         width: 100%;
         border: 1px solid #e7e7e7;
-        background-color: #f3f3f3;
-        margin: 0px;
-    }
+        background-color: #f3f3f3;}
 
     a:link {
         text-decoration: none;
         color: black;
     }
 
-    a:hover {
-        text-decoration: none;
-    }
-        
     p {
         margin: 28px;
         font-family: "proxima-nova", sans-serif;
@@ -113,4 +81,10 @@ html {
         font-weight: 400;
         padding-left: 200px;
         padding-right: 200px;
+    }
+
+    h3 {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 12px;
+    text-align: center;
     }
