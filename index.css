@@ -2,6 +2,11 @@ html {
     background-color: #FFFFFF;
 }
 
+page 
+ { 
+   padding-top: 65px
+ }
+
     h1 {
         font-family: "proxima-nova", sans-serif;
         font-size: 80px;
