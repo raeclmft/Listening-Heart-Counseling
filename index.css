@@ -2,13 +2,6 @@ html {
     background-color: #FFFFFF;
 }
 
-.affix{
-  width:100%;
-  top:0;
-  z-index: 10;
-}
-
-
     h1 {
         font-family: "proxima-nova", sans-serif;
         font-size: 80px;
