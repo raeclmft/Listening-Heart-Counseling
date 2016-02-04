@@ -32,6 +32,12 @@ html {
         padding-top: 0;
     }
 
+    h3 {
+        font-family: "proxima-nova", sans-serif;
+        font-size: 12px;
+        text-align: center;
+    }
+
     h4 {
         font-family: "proxima-nova", sans-serif;
         font-size: 20px;
@@ -43,14 +49,14 @@ html {
     }
 
     h5 {
-       font-family: "proxima-nova", sans-serif;
+        font-family: "proxima-nova", sans-serif;
         font-size: 20px;
         font-weight: bold;
         text-align: center;
         color: #121212;
         letter-spacing: 0.125em;
         line-height: 1em;  
-    }   
+    } 
 
     .nav a {
         font-family: "proxima-nova", sans-serif;
@@ -74,7 +80,9 @@ html {
         top: 0;
         width: 100%;
         border: 1px solid #e7e7e7;
-        background-color: #f3f3f3;}
+        background-color: #f3f3f3;
+        margin: 0px;
+    }
 
     a:link {
         text-decoration: none;
@@ -105,10 +113,4 @@ html {
         font-weight: 400;
         padding-left: 200px;
         padding-right: 200px;
-    }
-
-    h3 {
-    font-family: "proxima-nova", sans-serif;
-    font-size: 12px;
-    text-align: center;
     }
