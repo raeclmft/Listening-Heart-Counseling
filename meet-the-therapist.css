@@ -11,12 +11,6 @@ html {
     column-rule: 1px none;
 }
 
-.div style {
-    align-content: center;
-    -webkit-align-content: center; /* Chrome, Safari, Opera */
-    -moz-align-content: center; /* Firefox */
-}
-
     .nav a {
         font-family: "proxima-nova", sans-serif;
         font-size: 14px;
@@ -34,6 +28,7 @@ html {
         text-align:center;
         float: left;
         -webkit-column-span: all; /* Chrome, Safari, Opera */
+        -moz-column-span: all; /* Firefox */
         column-span: all;
     }
 
@@ -62,6 +57,7 @@ html {
         line-height: 1em;
         padding-top: 10px;
         -webkit-column-span: all; /* Chrome, Safari, Opera */
+        -moz-column-span: all; /* Firefox */
         column-span: all;
     }
 
@@ -80,6 +76,7 @@ html {
         padding-left: 200px;
         padding-right: 200px;
         -webkit-column-span: all; /* Chrome, Safari, Opera */
+        -moz-column-span: all; /* Firefox */
         column-span: all;
     }
 
