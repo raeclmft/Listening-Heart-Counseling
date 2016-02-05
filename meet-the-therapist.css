@@ -2,17 +2,20 @@ html {
     background-color: #FFFFFF;
 }
 
-    #body {
-        margin-left:  20%;
+    #columns {
+        text-align: center;
     }
 
-    #quote {
-        float: left;
-        width: 20%;
-        text-align: left;
-        line-height: 2em;
-    }
+        #body {
+            margin-left:  20%;
+        }
 
+        #quote {
+            float: left;
+            width: 20%;
+            text-align: left;
+            line-height: 2em;
+        }
 
     .nav a {
         font-family: "proxima-nova", sans-serif;
@@ -28,7 +31,7 @@ html {
 
     .nav li {
         display: inline;
-        text-align:center;
+        text-align: center;
         float: left;
     }
 
