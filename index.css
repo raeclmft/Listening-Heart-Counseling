@@ -2,6 +2,10 @@ html {
     background-color: #FFFFFF;
 }
 
+img {
+        align-content: center;    
+    }
+    
     h1 {
         font-family: "proxima-nova", sans-serif;
         font-size: 80px;
