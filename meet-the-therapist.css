@@ -2,6 +2,14 @@ html {
     background-color: #FFFFFF;
 }
 
+#quote {
+  margin-left:  20%;
+}
+#body {
+  float: left;
+  width: 20%;
+}
+
     .nav a {
         font-family: "proxima-nova", sans-serif;
         font-size: 14px;
