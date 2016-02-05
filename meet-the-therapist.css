@@ -1,5 +1,11 @@
 html {
     background-color: #FFFFFF;
+     -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        -webkit-column-rule: 1px none; /* Chrome, Safari, Opera */
+        -moz-column-rule: 1px none; /* Firefox */
+        column-rule: 1px none;
 }
 
     .nav a {
@@ -27,16 +33,7 @@ html {
         border: 1px solid #e7e7e7;
         background-color: #f3f3f3;}
 
-    div {
-        -webkit-column-count: 2; /* Chrome, Safari, Opera */
-        -moz-column-count: 2; /* Firefox */
-        column-count: 2;
-        -webkit-column-rule: 1px none; /* Chrome, Safari, Opera */
-        -moz-column-rule: 1px none; /* Firefox */
-        column-rule: 1px none;
-    }
-
-    a:link {
+     a:link {
         text-decoration: none;
         color: black;
     }
