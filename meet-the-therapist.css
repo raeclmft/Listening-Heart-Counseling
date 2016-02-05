@@ -8,8 +8,11 @@ html {
 
     #quote {
         float: left;
-        width: 25%;
+        width: 20%;
+        text-align: left;
+        line-height: .5em;
     }
+
 
     .nav a {
         font-family: "proxima-nova", sans-serif;
