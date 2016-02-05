@@ -11,6 +11,12 @@ html {
     column-rule: 1px none;
 }
 
+.div style {
+    align-content: center;
+    -webkit-align-content: center; /* Chrome, Safari, Opera */
+    -moz-align-content: center; /* Firefox */
+}
+
     .nav a {
         font-family: "proxima-nova", sans-serif;
         font-size: 14px;
