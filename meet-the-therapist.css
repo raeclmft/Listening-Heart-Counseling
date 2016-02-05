@@ -52,7 +52,8 @@ html {
         letter-spacing: 0.125em;
         line-height: 1em;
         padding-top: 10px;
-        
+        -webkit-column-span: all; /* Chrome, Safari, Opera */
+        column-span: all;
     }
 
     h2 {
@@ -69,6 +70,8 @@ html {
         margin-bottom: 28px;
         padding-left: 200px;
         padding-right: 200px;
+        -webkit-column-span: all; /* Chrome, Safari, Opera */
+        column-span: all;
     }
 
     h3 {
