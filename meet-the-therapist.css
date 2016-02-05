@@ -7,7 +7,7 @@ html {
     }
 
     #quote {
-        float: inline-end;
+        float: left;
         width: 25%;
     }
 
