@@ -2,8 +2,10 @@ html {
     background-color: #FFFFFF;
 }
 
-img {
-    vertical-align: middle;
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
    h1 {
