@@ -2,12 +2,6 @@ html {
     background-color: #FFFFFF;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
    h1 {
         font-family: "proxima-nova", sans-serif;
         font-size: 80px;
