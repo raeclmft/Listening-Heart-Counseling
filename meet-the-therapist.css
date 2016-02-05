@@ -2,10 +2,10 @@ html {
     background-color: #FFFFFF;
 }
 
-#quote {
+#body {
   margin-left:  20%;
 }
-#body {
+#quote {
   float: left;
   width: 20%;
 }
