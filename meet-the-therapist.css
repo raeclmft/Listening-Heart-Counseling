@@ -2,13 +2,14 @@ html {
     background-color: #FFFFFF;
 }
 
-#body {
-  margin-left:  20%;
-}
-#quote {
-  float: left;
-  width: 20%;
-}
+    #body {
+        margin-left:  20%;
+    }
+
+    #quote {
+        float: middle;
+        width: 20%;
+    }
 
     .nav a {
         font-family: "proxima-nova", sans-serif;
@@ -84,8 +85,7 @@ html {
 
     h4 {
         font-family: "ruluko", sans-serif;
-        font-size: 16px;
-        font-wieght: bold;
+        font-size: 24px;
         text-align: center;
         color: #121212;
     }
@@ -116,3 +116,10 @@ html {
         padding-left: 200px;
         padding-right: 200px;
     }*/
+
+
+/*html {
+    background-color: #FFFFFF;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+}*/
