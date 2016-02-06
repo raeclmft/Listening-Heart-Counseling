@@ -72,6 +72,11 @@ html {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 28px;*/
+        
+    h4 {
+        font-family: "proxima-nova", sans-serif;
+        font-size: 12px;
+        text-align: center;
     }
 
     img {
