@@ -46,7 +46,7 @@ html {
     .nav li {
         display: inline;
         text-align:center;
-        float: middle;
+        float: left;
     }
 
     .nav ul {
