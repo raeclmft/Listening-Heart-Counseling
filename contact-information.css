@@ -77,6 +77,12 @@
         padding-left: 200px;
         padding-right: 200px;
     }
+    
+    h4 {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    }
         
 p {
         margin: 28px;
