@@ -21,7 +21,7 @@ body {
 
     .nav ul {
         overflow: auto;
-        width: 610px;
+        width: 700px;
         margin: 0 auto;
     }
         
@@ -29,6 +29,7 @@ body {
             font-family: "proxima-nova", sans-serif;
             font-size: 14px;
             text-transform: uppercase;
+            letter-spacing: 0.1em;
             line-height: 42px;
             height: 42px;
             padding-left: 10px;
