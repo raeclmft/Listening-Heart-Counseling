@@ -25,7 +25,8 @@ html {
         font-size: 20px;
         font-weight: 400;
         text-align: center;
-        color: #ccc;    
+        color: #ccc;
+        padding-bottom: 10px;
     }
 
     h3 {
