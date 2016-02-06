@@ -2,21 +2,6 @@ html {
     background-color: #FFFFFF;
 }
 
-    #columns {
-        text-align: center;
-    }
-
-        #body {
-            margin-left:  20%;
-        }
-
-        #quote {
-            float: left;
-            width: 20%;
-            text-align: left;
-            line-height: 2em;
-        }
-
     .nav a {
         font-family: "proxima-nova", sans-serif;
         font-size: 14px;
@@ -88,15 +73,6 @@ html {
         margin-right: auto;
         margin-bottom: 28px;*/
     }
-
-    h4 {
-        font-family: "ruluko", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        text-align: center;
-        color: #121212;
-    }
-
 
     img {
         align: center;
