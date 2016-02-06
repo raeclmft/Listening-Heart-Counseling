@@ -2,7 +2,13 @@ html {
     background-color: #FFFFFF;
 }
 
-   h1 {
+.div style {
+    align-content: center;
+    -webkit-align-content: center; /* Chrome, Safari, Opera */
+    -moz-align-content: center; /* Firefox */
+}
+
+    h1 {
         font-family: "proxima-nova", sans-serif;
         font-size: 80px;
         font-weight: bold;
@@ -11,11 +17,18 @@ html {
         color: #121212;
         letter-spacing: 0.125em;
         line-height: 1em;
-        padding-top: 10px;
-        
+        padding-top: 10px;   
     }
 
     h2 {
+        font-family: "Merienda";
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        color: #ccc;    
+    }
+
+    h3 {
         font-family: "proxima-nova", sans-serif;
         font-size: 16px;
         font-weight: 400;
@@ -56,6 +69,7 @@ html {
         border: 1px solid #e7e7e7;
         background-color: #f3f3f3;}
 
+
     a:link {
         text-decoration: none;
         color: black;
@@ -83,7 +97,7 @@ html {
         padding-right: 200px;
     }
 
-    h3 {
+    h4 {
     font-family: "proxima-nova", sans-serif;
     font-size: 12px;
     text-align: center;
