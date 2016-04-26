@@ -84,11 +84,11 @@ body {
     }
 
     h3 {
-        font-family: 'Merienda', cursive;
+        font-family: "Merienda";
         font-size: 20px;
         font-weight: 400;
         padding-left: 200px;
-        color: #696969;
+        color: black;
     }
 
     p {
