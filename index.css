@@ -35,7 +35,6 @@ body {
             padding-left: 10px;
             padding-right: 10px;
         }
-    /* need to figure out how to get the code to indent the bullets points MORE than the paragraphs of text, current indentation is off*/
         
         .nav li {
             float: left;
@@ -53,7 +52,7 @@ body {
  
             .nav a.active {
                 background-color: #fff;
-            }
+            }  
 
     h1 {
         font-family: "proxima-nova", sans-serif;
