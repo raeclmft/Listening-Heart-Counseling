@@ -113,6 +113,10 @@ body {
         padding-right: 200px;
     }
 
+    .bullet-list {
+        margin-left: 40px;
+    }
+
     h4 {
     font-family: "proxima-nova", sans-serif;
     font-size: 12px;
