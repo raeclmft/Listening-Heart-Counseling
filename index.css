@@ -1,119 +1,124 @@
-html {
-    background-color: #FFFFFF;
+body { 
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.nav {
-    background-color: #f3f3f3;
-}
- 
-    .nav ul {
-        list-style: none;
+    nav {
         background-color: #f3f3f3;
+        
+        font-family: "proxima-nova", sans-serif;
+        font-size: 14px;
+        
+        text-transform: uppercase;
         text-align: center;
-        padding: 0;
-        margin: 0;
+        
+        letter-spacing: 0.1em;
+        line-height: 42px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    .nav ul {
-        overflow: auto;
-        width: 700px;
-        margin: 0 auto;
-    }
-        
-        .nav li {
-            font-family: "proxima-nova", sans-serif;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            line-height: 42px;
-            height: 42px;
-            padding-left: 10px;
-            padding-right: 10px;
+        nav a {
+            text-decoration: none;
+            color: #5a5a5a;
         }
-        
-        .nav li {
-            float: left;
-        }
- 
-            .nav a {
-                text-decoration: none;
-                color: #5a5a5a;
-                display: block;
-            }
- 
-            .nav a:hover {
+
+            nav a:hover {
                 color: rebeccapurple;
             }
- 
-            .nav a.active {
-                background-color: #fff;
-            }  
 
-    h1 {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 80px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-align: center;
-        color: #121212;
-        letter-spacing: 0.125em;
-        line-height: 1em;
-        padding-top: 10px;   
+            nav a.active {
+                background-color: #FFF;     
+            }
+
+        h1 {
+            font-family: "proxima-nova", sans-serif;
+            font-weight: bold;
+            font-size: 80px;
+        
+            text-transform: uppercase;
+            text-align: center;
+        
+            color: #121212;
+        
+            letter-spacing: 0.125em;
+            line-height: 1em;
+            padding-top: 10px;
+        }
+
+        h2 {
+            font-family: "proxima-nova", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        
+            text-transform: uppercase;
+            text-align: center;
+        
+            color: #CCC;
+        
+            letter-spacing: 0.5em; 
+            line-height: 1.8em;
+            padding-left: 200px;
+            padding-right: 200px; 
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 28px;  
+        }
+
+        h3 {
+            font-family: "proxima-nova", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            
+            text-align: center;
+            
+            color: #696969;
+            
+            letter-spacing: 0px;
+            line-height: 1.7em;
+        }
+
+        h5 {
+            font-family: "Merienda";
+            font-weight: 400;
+            font-size: 20px;
+            
+            text-align: center;
+            
+            color: #B3B3B3;
+        }
+
+        main ul {
+            font-family: "proxima-nova", sans-serif;
+            font-size: 16px;
+            
+            letter-spacing: 0px;
+            line-height: 1.7em;
+            
+            margin-left: 230px;
+        }
+
+        p {
+            font-family: "proxima-nova", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        
+            letter-spacing: 0px;
+            line-height: 1.7em;
+        
+            padding-left: 200px;
+            padding-right: 200px;
+            margin: 28px;
+        }
+
+    footer {
+        text-align: center;    
     }
 
-    h2 {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        text-transform: uppercase;
-        text-align: center;
-        color: #ccc;
-        letter-spacing: 0.625em;
-        line-height: 1.8em;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 28px;
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-
-    h3 {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        text-align: center;
-        color: #696969;
-    }
-
-    p {
-        margin: 28px;
-        font-family: "proxima-nova", sans-serif;
-        line-height: 1.7em;
-        letter-spacing: 0px;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-
-    ul {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 16px;
-        line-height: 1.7em;
-        letter-spacing: 0px;
-        font-weight: 400;
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-
-    h4 {
-    font-family: "proxima-nova", sans-serif;
-    font-size: 12px;
-    text-align: center;
-    }
+        h4 {
+            font-family: "proxima-nova", sans-serif;
+            font-size: 12px;
+            
+            text-align: center; 
+        }
