@@ -31,13 +31,9 @@ body {
             nav a.active {
                 background-color: #FFF;     
             }
-.navbar {
-  overflow: hidden;
-}
 
 .dropdown {
   overflow: hidden;
-    position: relative;
     float: center;
 }
 
@@ -73,7 +69,6 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
-    align-content: center;
 }
 
         h1 {
