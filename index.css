@@ -73,6 +73,7 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+    align-content: center;
 }
 
         h1 {
