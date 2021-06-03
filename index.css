@@ -31,6 +31,9 @@ body {
             nav a.active {
                 background-color: #FFF;     
             }
+.navbar {
+  overflow: hidden;
+}
 
 .dropdown {
   overflow: hidden;
